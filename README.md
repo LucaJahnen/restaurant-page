@@ -1,5 +1,5 @@
 # Restaurant Page Challenge - TheOdinProject
-This is my solution to the [Restaurant Page Challenge](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) provided by [TheOdinProject](TheOdinProject.com).
+This is my solution to the [Restaurant Page Challenge](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) provided by [TheOdinProject](https://TheOdinProject.com).
 
 ## The challenge
 The Challenge was to create a Restaurant Page that has multiple pages. Each Page should be its own module.

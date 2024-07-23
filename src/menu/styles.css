@@ -1,0 +1,36 @@
+h1 {
+    margin: 1.6rem 0 0 0;
+}
+
+.element {
+    margin: 0 2.4rem;
+}
+
+.element div {
+    margin: 0.8rem 0;
+    display: inline-block;
+    width: calc(50% - 1.5rem);
+}
+
+.element div:nth-child(5), .element div:nth-child(8), .element div:nth-child(11) {
+    margin: 0.8rem 0 0.8rem 3rem;
+}
+
+@media screen and (max-width: 960px) {
+    .element div,
+    .element div:nth-child(5),
+    .element div:nth-child(8),
+    .element div:nth-child(11) {
+        display: block;
+        width: 100%;
+        margin: 0.8rem 0;
+    }
+
+    .element div p {
+        max-width: 80%;
+    }
+
+    .container h2:nth-child(3) {
+        margin-top: 3rem;
+    }
+}

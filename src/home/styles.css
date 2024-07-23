@@ -1,0 +1,41 @@
+.welcome {
+    text-align: center;
+    margin-top: 5rem;
+
+    span {
+        background: linear-gradient(45deg, #c9a0dc, #8a2be2);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+.desc {
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.elegant {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    margin-top: 4rem;
+
+    h2, p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+    }
+}

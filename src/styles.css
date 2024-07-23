@@ -62,7 +62,7 @@ nav {
 
 footer {
     margin-top: 6rem;
-    padding: 1.6rem 2.4rem;;
+    padding: 2rem 2.4rem;
     display: flex;
     justify-content: space-between;
     background: lightgrey;
@@ -71,12 +71,15 @@ footer {
         margin: 0 2rem;
     }
 
-    ion-icon {
-        font-size: 24px;
+    a {
+        display: inline;
+        text-decoration: none;
+        color: black;
     }
 
-    ion-icon:nth-child(2) {
-        margin: 0 2rem;
+    ion-icon {
+        font-size: 24px;
+        margin: 0 1rem;
     }
 }
 
@@ -106,7 +109,7 @@ footer {
     footer {
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 1.4rem;
         margin-top: 4rem;
     }
 }

@@ -10,7 +10,7 @@ The Challenge was to create a Restaurant Page that has multiple pages. Each Page
   - [style-loader](https://webpack.js.org/loaders/style-loader/)
 
 ## My Process
-First, I set up the html navigation and the made sure it was working and the home page would show up when the page was loaded.
+First, I set up the html navigation and the made sure it was working and the home page would show up when the page was loaded. I asked [ChatGPT](https://chatgpt.com/) for some dummy data and then thought of a basic layout for desktop and mobile. The main task was to generate html elements using javascript which took some time because I hadn't done this before.
 
 ### Assets
 I decided to download the [Poppins](https://fonts.google.com/specimen/Poppins) ttf-files from [Google Fonts](https://fonts.google.com/) to practice using assets in webpack.
